@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-URL = 'http://localhost:3001/users/getdetails';
+URL = 'https://localhost:3001/users/getdetails';
 
 const App = () => {
   const [username, setUsername] = useState('');
